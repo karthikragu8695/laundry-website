@@ -61,7 +61,9 @@ p {
   transform: rotate(135deg);
 }
 
+
 .navbar-nav .nav-item a {
+ 
   @apply relative inline-block px-4 py-3 text-white capitalize duration-300;
 }
 .sticky .navbar-nav .nav-item a {
@@ -83,7 +85,7 @@ p {
   overflow: hidden;
 }
 .gradient-btn-2 {
-  background-image: linear-gradient(to right, #021312 0%, #024d6b 50%, #33c8c1 100%);
+  background-image: linear-gradient(to right, #23ddd1 0%, #0ed4e6 50%, #07f6ea 100%);
 }
 .gradient-btn:hover {
   background-position: right center;
@@ -108,7 +110,10 @@ p {
   max-width: 190px;
   @apply px-3 mt-8 duration-300 opacity-50;
 }
+.li{
+  background: linear-gradient(#5718d6 0%, #fe6e9a 100%);
 
+}
 .section-title .line {
   background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
   @apply w-40 h-1 mb-3;
@@ -126,11 +131,9 @@ p {
 
 .single-services {
 
-  @apply px-8 py-12 mx-4 mt-8 text-center duration-300 bg-white border-2 border-transparent rounded-lg shadow-lg;
+  @apply px-8 py-12 mx-4 mt-8 text-center duration-300 bg-white  rounded-lg shadow-lg;
 }
-.single-services:hover {
-  @apply border-theme-color-2;
-}
+
 .services-icon {
   @apply relative inline-block;
 }
