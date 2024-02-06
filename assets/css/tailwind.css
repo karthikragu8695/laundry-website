@@ -1223,13 +1223,14 @@ p {
 }
 
 .gradient-btn {
-  background-image: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background-image: linear-gradient(to right, #0e6fee 0%, #138ec7 50%, #115cf2 100%);
   background-size: 200% auto;
+  border: 1px solid transparent;
   overflow: hidden;
 }
 
 .gradient-btn-2 {
-  background-image: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background-image: linear-gradient(to right, #1820f3 0%, #119bd2 50%, #0f0bfb 100%);
 }
 
 .gradient-btn:hover {
@@ -1287,8 +1288,8 @@ p {
 }
 
 .section-title .line {
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  width: 10rem;
+  background: linear-gradient(#2f0fa2 0%, #310af4 100%);
+  width: 5rem;
   height: 0.25rem;
   margin-bottom: 0.75rem;
 }
