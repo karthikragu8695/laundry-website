@@ -1123,9 +1123,8 @@ p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   transition-duration: 300ms;
-  background-color: transparent;
+  background-color: #fff;
 }
-
 .sticky {
   position: fixed;
   padding-top: 0.25rem;
@@ -1152,7 +1151,7 @@ p {
   display: block;
   transition-duration: 300ms;
   --bg-opacity: 1;
-  background-color: #fff;
+  background-color: #950a0a;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
   height: 2px;
   width: 30px;
@@ -1195,8 +1194,8 @@ p {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #000000;
+  /* color: rgba(255, 255, 255, var(--text-opacity)); */
   text-transform: capitalize;
   transition-duration: 300ms;
 }
@@ -1230,7 +1229,7 @@ p {
 }
 
 .gradient-btn-2 {
-  background-image: linear-gradient(to right, #1820f3 0%, #119bd2 50%, #0f0bfb 100%);
+  background-image: linear-gradient(to right, #00b1ef 0%, #119bd2 50%, #00b1ef 100%);
 }
 
 .gradient-btn:hover {
