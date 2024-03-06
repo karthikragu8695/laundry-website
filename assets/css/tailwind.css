@@ -1120,15 +1120,15 @@ p {
   left: 0;
   z-index: 40;
   width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  /* padding-top: 0.5rem; */
+  /* padding-bottom: 0.5rem; */
   transition-duration: 300ms;
   background-color: #fff;
 }
 .sticky {
   position: fixed;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  /* padding-top: 0.25rem; */
+  /* padding-bottom: 0.25rem; */
   --bg-opacity: 1;
   background-color: #fff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
@@ -1137,15 +1137,13 @@ p {
 
 @media (max-width: 1024px) {
   .navbar-area {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
   }
 }
-
 .collapse.show {
   display: block;
 }
-
 .toggler-icon {
   position: relative;
   display: block;
@@ -1157,7 +1155,6 @@ p {
   width: 30px;
   margin: 6px 0;
 }
-
 .sticky .toggler-icon {
   --bg-opacity: 1;
   background-color: #1a202c;
@@ -1590,9 +1587,10 @@ p {
   border-radius: 9999px;
   opacity: 0.25;
   --bg-opacity: 1;
-  background-color: #FE7A7B;
-  background-color: rgba(254, 122, 123, var(--bg-opacity));
+  background-color: #ED5AB3;
+  background-color: rgba(237,90,179, var(--bg-opacity));
 }
+
 
 .slick-dots .slick-active button,
 .slick-dots button:hover {

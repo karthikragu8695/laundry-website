@@ -13,10 +13,10 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/wnp_logo_1_medium (1).png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/wash-n-xpress.png");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/wnp_logo_1_medium (1).png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/wash-n-xpress.png");
         }
     });
 
