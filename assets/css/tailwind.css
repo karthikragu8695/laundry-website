@@ -1226,7 +1226,7 @@ p {
 }
 
 .gradient-btn-2 {
-  background-image: linear-gradient(to right, #00b1ef 0%, #119bd2 50%, #00b1ef 100%);
+  background-image: linear-gradient(to right, #38E54D 0%, #12372A 50%, #38E54D 100%);
 }
 
 .gradient-btn:hover {
@@ -1679,7 +1679,7 @@ p {
 }
 
 .back-to-top {
-  background-image: linear-gradient(to right, #122df9 0%,#2e82ef 100%);
+  background-image: linear-gradient(to right, #38E54D 0%,#12372A 100%);
   background-size: 200% auto;
   position: fixed;
   bottom: 0;
