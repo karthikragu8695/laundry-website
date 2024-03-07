@@ -1587,8 +1587,8 @@ p {
   border-radius: 9999px;
   opacity: 0.25;
   --bg-opacity: 1;
-  background-color: #ED5AB3;
-  background-color: rgba(237,90,179, var(--bg-opacity));
+  background-color: #74E291;
+  background-color: rgba(116,226,145, var(--bg-opacity));
 }
 
 
@@ -1644,8 +1644,8 @@ p {
   margin-right: 1.5rem;
   font-size: 1.5rem;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #060505;
+  color: rgba(8, 7, 7, var(--text-opacity));
   transition-duration: 300ms;
 }
 
@@ -1658,22 +1658,23 @@ p {
 .contact li {
   margin-bottom: 0.75rem;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #070505;
+  color: rgba(8,7,7
+  , var(--text-opacity));
 }
 
 .link li a {
   display: inline-block;
   margin-bottom: 0.75rem;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #080707;
+  color: rgba(8,7,7, var(--text-opacity));
   transition-duration: 300ms;
 }
 
 .link li a:hover {
   --text-opacity: 1;
-  color: #FE7A7B;
+  color: #000000;
   color: rgba(254, 122, 123, var(--text-opacity));
 }
 
